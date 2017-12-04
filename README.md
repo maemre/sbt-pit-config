@@ -4,6 +4,6 @@ An example for using [pitest](https://pitest.org) with SBT and scripts to downlo
 Run `./get-sbt-plugins.sh` to download and install the SBT plugins locally. See the `example/` folder for an example project. This configuration uses:
 
  + [sbt-pit](https://github.com/alexec/sbt-pit) to run pitest through SBT.
- + [sbt-pit](https://github.com/alexec/pitest-scalatest-plugin) to make pitest discover ScalaTest tests.
+ + [pitest-scalatest-plugin](https://github.com/alexec/pitest-scalatest-plugin) to make pitest discover ScalaTest tests.
 
 Check `CRAPL-LICENSE.txt` for license.
