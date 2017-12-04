@@ -1,6 +1,6 @@
 import org.pitest.sbt.PitKeys._
 
-name := "sbt-pit-scalatest-example"
+name := "example"
 
 organization := "com.example"
 
@@ -18,5 +18,6 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "test"
 // see sbt-pit/src/main/scala/org/pitest/sbt/PitKeys.scala for all options
 verbose := true
 timestampedReports := false
-targetClasses := Seq("typechecker.Typechecker$")
+targetClasses := Seq("typechecker.Typechecker*")
+targetTests := Seq("typechecker.*")
 excludedMethods := Seq("hashCode", "equals")
