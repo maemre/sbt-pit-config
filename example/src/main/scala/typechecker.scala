@@ -16,4 +16,6 @@ object Typechecker {
         t2 ← typeOf(e2) if t1 == t2 && t2 == NumT
       } yield NumT
   }
+
+  def dummy = 3
 }
