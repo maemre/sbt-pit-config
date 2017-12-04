@@ -1,2 +1,5 @@
 *.class
 *.log
+*~
+pitest-scalatest-plugin
+sbt-pit
