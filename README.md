@@ -5,3 +5,5 @@ Run `./get-sbt-plugins.sh` to download and install the SBT plugins locally. See 
 
  + [sbt-pit](https://github.com/alexec/sbt-pit) to run pitest through SBT.
  + [sbt-pit](https://github.com/alexec/pitest-scalatest-plugin) to make pitest discover ScalaTest tests.
+
+Check `CRAPL-LICENSE.txt` for license.
